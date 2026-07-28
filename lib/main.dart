@@ -12,7 +12,22 @@ class coba extends StatelessWidget {
         appBar: AppBar(),
         body: Center(
           child: Column(
-            children: [Text("anjay"), Text("anjay mabar")],
+            children: [
+              Expanded(
+                  flex: 2,
+                  child: Container(
+                    width: double.infinity,
+                    color: Colors.red,
+                  )),
+              Expanded(
+                  child: Container(
+                color: Colors.blue,
+              )),
+              Expanded(
+                  child: Container(
+                color: Colors.orange,
+              ))
+            ],
           ),
         ),
       ),
