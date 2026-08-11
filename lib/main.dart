@@ -14,7 +14,7 @@ class coba extends StatelessWidget {
           child: Column(
             children: [
               Expanded(
-                  flex: 2,
+                  flex: 4,
                   child: Container(
                     width: double.infinity,
                     color: Colors.red,
